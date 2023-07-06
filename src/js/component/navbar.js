@@ -1,10 +1,10 @@
-import React, {useContext} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Context } from "../store/appContext";
+// import { Context } from "../store/appContext";
 
 
 export const Navbar = () => {
-	const {store, actions} = useContext(Context);
+	// const {store, actions} = useContext(Context);
 	return (
 		<nav className="navbar bg-transparent color-white d-flex justify-content-center">
 			<Link to="/">
